@@ -1,0 +1,67 @@
+body{
+    /* display: block; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient( to right top,#3c627a,#2f536b,#1669a0,#083f64,#104669,#0d0e63);
+    background-size: 500% 500%;
+    animation:cambiar 7s ease infinite ;
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+} 
+
+
+h1{
+    text-align: center;
+    font-size: 10vh;
+}
+
+.grupo label, input{
+    display: inline-block;
+    width:55%;
+    font-weight:bolder;
+}
+.grupo textarea{
+    padding: 20px ;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top:20px;
+    width:80%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size:30px;
+    color:#1d2742;
+    font-weight:bold;
+
+}
+.grupo input{
+    font-size: 15px;
+    padding: 10px;
+    border: solid #0d0e63;
+    margin-block: 30px;
+}
+
+
+.grupo2 button{
+    flex-direction: row;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    border: solid #0d0e63;
+    width:150px;
+    height:50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right top, #240ef0 0%, #0a40f0 100%);
+    
+}
+button:hover{
+    background: linear-gradient(120deg, #433e97 0%, #367443 100%) ;
+    
+}
+
